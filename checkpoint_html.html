@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr width="100%" />
+    <main>
+      <section id="home">
+        <h2>Welcome</h2>
+        <p>
+          Welcome to my personal portfolio page. I'm excited to share my work
+          with you!
+        </p>
+      </section>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I’m a web development student passionate about creating beautiful and
+          functional web applications.
+        </p>
+        <audio controls>
+          <source src="audio.mp3" type="audio/mp3" />
+          Your browser does not support the audio element.
+        </audio>
+      </section>
+
+      <section id="work">
+        <h2>My Work</h2>
+        <ul>
+          <li>Personal Blog Website</li>
+          <li>To-do List Web App</li>
+          <li>Photography Portfolio</li>
+        </ul>
+        <video controls width="300">
+          <source src="video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <section id="resume">
+        <h2>Resume</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Position</th>
+              <th>Company</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2023</td>
+              <td>Intern</td>
+              <td>SpaceX</td>
+            </tr>
+            <tr>
+              <td>2024</td>
+              <td>Junior Developer</td>
+              <td>Microsoft</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <hr width="100%" />
+    <footer>
+      <p>© 2025 All rights reserved.</p>
+    </footer>
+  </body>
+</html>
